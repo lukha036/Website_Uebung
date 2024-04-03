@@ -1,0 +1,88 @@
+Launching jupyter-lab
+[I 2024-04-03 14:23:09.574 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2024-04-03 14:23:09.574 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2024-04-03 14:23:09.580 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2024-04-03 14:23:09.585 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2024-04-03 14:23:09.588 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-03 14:23:09.588 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-03 14:23:09.588 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-03 14:23:09.588 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-03 14:23:09.588 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-04-03 14:23:09.592 ServerApp] jupyterlab | extension was successfully linked.
+[W 2024-04-03 14:23:09.595 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2024-04-03 14:23:09.595 NotebookApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2024-04-03 14:23:09.595 NotebookApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-03 14:23:09.596 NotebookApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-03 14:23:09.596 NotebookApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-04-03 14:23:09.600 ServerApp] nbclassic | extension was successfully linked.
+[I 2024-04-03 14:23:09.601 ServerApp] Writing Jupyter server cookie secret to /home/jovyan/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2024-04-03 14:23:09.911 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-04-03 14:23:09.937 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-04-03 14:23:09.937 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2024-04-03 14:23:09.938 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2024-04-03 14:23:09.938 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2024-04-03 14:23:09.939 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /home/jovyan
+[I 2024-04-03 14:23:09.939 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/jovyan/.local/share/jupyter/file_id_manager.db
+[I 2024-04-03 14:23:09.939 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2024-04-03 14:23:09.939 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2024-04-03 14:23:09.948 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2024-04-03 14:23:09.950 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2024-04-03 14:23:09.952 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.10/site-packages/jupyterlab
+[I 2024-04-03 14:23:09.952 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2024-04-03 14:23:09.957 ServerApp] jupyterlab | extension was successfully loaded.
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2024-04-03 14:23:09.962 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-04-03 14:23:09.963 ServerApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 2024-04-03 14:23:09.963 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2024-04-03 14:23:09.963 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2024-04-03 14:23:09.963 ServerApp] http://jupyter-lukha036-2dwebsite-5fuebung-2d7mh6qwab:8888/user/lukha036-website_uebung-7mh6qwab/lab?token=...
+[I 2024-04-03 14:23:09.963 ServerApp]  or http://127.0.0.1:8888/user/lukha036-website_uebung-7mh6qwab/lab?token=...
+[I 2024-04-03 14:23:09.963 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2024-04-03 14:23:09.968 ServerApp] No web browser found: could not locate runnable browser.
+[I 2024-04-03 14:23:10.376 ServerApp] 302 GET /user/lukha036-website_uebung-7mh6qwab/ (10.2.1.64) 1.12ms
+[I 2024-04-03 14:23:10.479 ServerApp] 302 GET /user/lukha036-website_uebung-7mh6qwab/?token=[secret] (132.180.189.104) 1.21ms
+[W 2024-04-03 14:23:12.882 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/api/me?1712154192696 (132.180.189.104) 19.76ms referer=https://hub.ovh2.mybinder.org/user/lukha036-website_uebung-7mh6qwab/lab
+[I 2024-04-03 14:23:15.901 LabApp] Build is up to date
+[I 2024-04-03 14:23:18.312 ServerApp] New terminal with automatic name: 1
+[W 2024-04-03 14:28:22.371 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css')%20%7D%7D (132.180.189.104) 2.52ms referer=None
+[W 2024-04-03 14:28:22.455 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='/assets/css/fontawesome.css')%20%7D%7D (132.180.189.104) 2.39ms referer=None
+[W 2024-04-03 14:28:22.457 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='/assets/css/templatemo-stand-blog.css')%20%7D%7D (132.180.189.104) 1.72ms referer=None
+[W 2024-04-03 14:28:22.460 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='/assets/css/owl.css')%20%7D%7D (132.180.189.104) 1.76ms referer=None
+[W 2024-04-03 14:28:22.582 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='assets/images/blog-thumb-01.jpg')%20%7D%7D (132.180.189.104) 2.33ms referer=None
+[W 2024-04-03 14:28:22.585 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='assets/images/blog-thumb-02.jpg')%20%7D%7D (132.180.189.104) 1.33ms referer=None
+[W 2024-04-03 14:28:22.587 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='assets/images/blog-thumb-03.jpg')%20%7D%7D (132.180.189.104) 1.59ms referer=None
+[W 2024-04-03 14:28:22.588 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='assets/images/blog-thumb-04.jpg')%20%7D%7D (132.180.189.104) 2.55ms referer=None
+[W 2024-04-03 14:28:22.599 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='assets/images/blog-thumb-05.jpg')%20%7D%7D (132.180.189.104) 1.49ms referer=None
+[W 2024-04-03 14:28:22.601 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='assets/images/blog-thumb-06.jpg')%20%7D%7D (132.180.189.104) 1.29ms referer=None
+[I 2024-04-03 14:30:02.923 ServerApp] Saving file at /templates/blog.html
+[I 2024-04-03 14:30:51.885 ServerApp] New terminal with automatic name: 2
+[I 2024-04-03 14:35:03.488 ServerApp] New terminal with automatic name: 3
+[I 2024-04-03 14:39:05.882 ServerApp] New terminal with automatic name: 4
+[I 2024-04-03 14:39:31.186 ServerApp] New terminal with automatic name: 5
+[I 2024-04-03 14:39:54.296 ServerApp] New terminal with automatic name: 6
+[W 2024-04-03 14:42:35.318 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css')%20%7D%7D (132.180.189.104) 3.70ms referer=None
+[W 2024-04-03 14:42:35.320 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='/assets/css/fontawesome.css')%20%7D%7D (132.180.189.104) 1.33ms referer=None
+[W 2024-04-03 14:42:35.323 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='/assets/css/templatemo-stand-blog.css')%20%7D%7D (132.180.189.104) 2.86ms referer=None
+[W 2024-04-03 14:42:35.325 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='/assets/css/owl.css')%20%7D%7D (132.180.189.104) 1.26ms referer=None
+[W 2024-04-03 14:42:35.330 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='assets/images/about-us.jpg')%20%7D%7D (132.180.189.104) 1.26ms referer=None
+[W 2024-04-03 14:42:51.168 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css')%20%7D%7D (132.180.189.104) 2.57ms referer=None
+[W 2024-04-03 14:42:51.171 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='/assets/css/fontawesome.css')%20%7D%7D (132.180.189.104) 1.27ms referer=None
+[W 2024-04-03 14:42:51.240 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='/assets/css/templatemo-stand-blog.css')%20%7D%7D (132.180.189.104) 2.02ms referer=None
+[W 2024-04-03 14:42:51.246 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='/assets/css/owl.css')%20%7D%7D (132.180.189.104) 1.81ms referer=None
+[W 2024-04-03 14:42:51.249 ServerApp] 404 GET /user/lukha036-website_uebung-7mh6qwab/files/templates/%7B%7B%20url_for('static',filename='assets/images/about-us.jpg')%20%7D%7D (132.180.189.104) 1.65ms referer=None
+[I 2024-04-03 14:42:51.914 ServerApp] Saving file at /templates/about.html
+[I 2024-04-03 14:43:06.819 ServerApp] Saving file at /templates/contact.html
+[I 2024-04-03 14:43:24.380 ServerApp] Saving file at /templates/index.html
+[I 2024-04-03 14:43:37.457 ServerApp] Saving file at /templates/postdetails.html
