@@ -127,3 +127,61 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [I 2024-04-04 06:32:58.390 ServerApp] EOF on FD 27; stopping reading
 [I 2024-04-04 06:32:58.491 ServerApp] Terminal 1 closed
 [I 2024-04-04 06:33:04.990 ServerApp] New terminal with automatic name: 1
+Launching jupyter-lab
+[I 2024-05-02 11:47:55.023 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2024-05-02 11:47:55.024 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2024-05-02 11:47:55.030 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2024-05-02 11:47:55.035 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2024-05-02 11:47:55.038 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-02 11:47:55.038 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-02 11:47:55.038 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-02 11:47:55.038 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-02 11:47:55.038 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-05-02 11:47:55.042 ServerApp] jupyterlab | extension was successfully linked.
+[W 2024-05-02 11:47:55.046 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2024-05-02 11:47:55.046 NotebookApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2024-05-02 11:47:55.046 NotebookApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-02 11:47:55.046 NotebookApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-02 11:47:55.046 NotebookApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-05-02 11:47:55.050 ServerApp] nbclassic | extension was successfully linked.
+[I 2024-05-02 11:47:55.410 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-05-02 11:47:55.436 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-05-02 11:47:55.437 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2024-05-02 11:47:55.438 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2024-05-02 11:47:55.438 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2024-05-02 11:47:55.438 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /home/jovyan
+[I 2024-05-02 11:47:55.438 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/jovyan/.local/share/jupyter/file_id_manager.db
+[I 2024-05-02 11:47:55.447 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2024-05-02 11:47:55.448 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2024-05-02 11:47:55.449 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2024-05-02 11:47:55.450 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2024-05-02 11:47:55.452 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.10/site-packages/jupyterlab
+[I 2024-05-02 11:47:55.452 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2024-05-02 11:47:55.458 ServerApp] jupyterlab | extension was successfully loaded.
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2024-05-02 11:47:55.464 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-05-02 11:47:55.464 ServerApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 2024-05-02 11:47:55.465 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2024-05-02 11:47:55.465 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2024-05-02 11:47:55.465 ServerApp] http://jupyter-lukha036-2dwebsite-5fuebung-2dho468tvo:8888/user/lukha036-website_uebung-ho468tvo/lab?token=...
+[I 2024-05-02 11:47:55.465 ServerApp]  or http://127.0.0.1:8888/user/lukha036-website_uebung-ho468tvo/lab?token=...
+[I 2024-05-02 11:47:55.465 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2024-05-02 11:47:55.470 ServerApp] No web browser found: could not locate runnable browser.
+[I 2024-05-02 11:47:57.900 ServerApp] 302 GET /user/lukha036-website_uebung-ho468tvo/ (10.2.1.64) 1.40ms
+[I 2024-05-02 11:47:58.055 ServerApp] 302 GET /user/lukha036-website_uebung-ho468tvo/?token=[secret] (132.180.224.200) 1.05ms
+[W 2024-05-02 11:47:59.306 ServerApp] 404 GET /user/lukha036-website_uebung-ho468tvo/api/me?1714650480314 (132.180.224.200) 20.31ms referer=https://hub.ovh2.mybinder.org/user/lukha036-website_uebung-ho468tvo/lab
+[I 2024-05-02 11:48:03.690 ServerApp] New terminal with automatic name: 1
+[I 2024-05-02 11:48:03.693 LabApp] Build is up to date
+[I 2024-05-02 12:36:00.431 ServerApp] New terminal with automatic name: 2
