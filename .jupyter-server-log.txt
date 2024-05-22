@@ -185,3 +185,87 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [I 2024-05-02 11:48:03.690 ServerApp] New terminal with automatic name: 1
 [I 2024-05-02 11:48:03.693 LabApp] Build is up to date
 [I 2024-05-02 12:36:00.431 ServerApp] New terminal with automatic name: 2
+Launching jupyter-lab
+[I 2024-05-22 12:47:54.014 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2024-05-22 12:47:54.015 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2024-05-22 12:47:54.019 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2024-05-22 12:47:54.024 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2024-05-22 12:47:54.026 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-22 12:47:54.026 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-22 12:47:54.026 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-22 12:47:54.026 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-22 12:47:54.027 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-05-22 12:47:54.030 ServerApp] jupyterlab | extension was successfully linked.
+[W 2024-05-22 12:47:54.033 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2024-05-22 12:47:54.033 NotebookApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2024-05-22 12:47:54.033 NotebookApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-22 12:47:54.033 NotebookApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-22 12:47:54.033 NotebookApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-05-22 12:47:54.036 ServerApp] nbclassic | extension was successfully linked.
+[I 2024-05-22 12:47:54.276 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-05-22 12:47:54.295 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-05-22 12:47:54.295 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2024-05-22 12:47:54.296 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2024-05-22 12:47:54.297 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2024-05-22 12:47:54.297 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /home/jovyan
+[I 2024-05-22 12:47:54.297 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/jovyan/.local/share/jupyter/file_id_manager.db
+[I 2024-05-22 12:47:54.301 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2024-05-22 12:47:54.301 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2024-05-22 12:47:54.301 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2024-05-22 12:47:54.302 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2024-05-22 12:47:54.304 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.10/site-packages/jupyterlab
+[I 2024-05-22 12:47:54.304 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2024-05-22 12:47:54.308 ServerApp] jupyterlab | extension was successfully loaded.
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2024-05-22 12:47:54.312 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-05-22 12:47:54.312 ServerApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 2024-05-22 12:47:54.312 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2024-05-22 12:47:54.313 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2024-05-22 12:47:54.313 ServerApp] http://jupyter-lukha036-2dwebsite-5fuebung-2dcclt6e88:8888/user/lukha036-website_uebung-cclt6e88/lab?token=...
+[I 2024-05-22 12:47:54.313 ServerApp]  or http://127.0.0.1:8888/user/lukha036-website_uebung-cclt6e88/lab?token=...
+[I 2024-05-22 12:47:54.313 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2024-05-22 12:47:54.316 ServerApp] No web browser found: could not locate runnable browser.
+[I 2024-05-22 12:47:54.558 ServerApp] 302 GET /user/lukha036-website_uebung-cclt6e88/ (10.2.1.117) 1.23ms
+[I 2024-05-22 12:47:54.697 ServerApp] 302 GET /user/lukha036-website_uebung-cclt6e88/?token=[secret] (132.180.189.104) 1.12ms
+[W 2024-05-22 12:47:58.926 ServerApp] 404 GET /user/lukha036-website_uebung-cclt6e88/api/me?1716382078751 (132.180.189.104) 17.91ms referer=https://hub.ovh2.mybinder.org/user/lukha036-website_uebung-cclt6e88/lab
+[I 2024-05-22 12:48:03.332 ServerApp] New terminal with automatic name: 1
+[I 2024-05-22 12:48:03.394 LabApp] Build is up to date
+[I 2024-05-22 12:48:04.731 ServerApp] New terminal with automatic name: 2
+[I 2024-05-22 12:49:15.820 ServerApp] Saving file at /main.py
+[I 2024-05-22 12:53:16.148 ServerApp] Saving file at /main.py
+[I 2024-05-22 12:54:04.424 ServerApp] Saving file at /main.py
+[I 2024-05-22 12:56:20.298 ServerApp] Saving file at /main.py
+[I 2024-05-22 12:56:30.929 ServerApp] Saving file at /main.py
+[I 2024-05-22 12:57:19.110 ServerApp] Saving file at /main.py
+[I 2024-05-22 12:57:51.402 ServerApp] Saving file at /main.py
+[I 2024-05-22 13:03:42.454 ServerApp] Saving file at /main.py
+[I 2024-05-22 13:05:28.731 ServerApp] Saving file at /main.py
+[I 2024-05-22 13:05:54.453 ServerApp] Saving file at /main.py
+[I 2024-05-22 13:07:03.275 ServerApp] Saving file at /main.py
+[W 2024-05-22 13:07:50.129 ServerApp] 404 GET /user/lukha036-website_uebung-cclt6e88/proxy/8000 (132.180.189.104) 5.04ms referer=None
+[W 2024-05-22 13:07:57.885 ServerApp] 404 GET /user/lukha036-website_uebung-cclt6e88/api/me?1716383277814 (132.180.189.104) 2.85ms referer=https://hub.ovh2.mybinder.org/user/lukha036-website_uebung-cclt6e88/lab
+[I 2024-05-22 13:08:00.999 LabApp] Build is up to date
+[W 2024-05-22 13:08:58.515 ServerApp] 404 GET /user/lukha036-website_uebung-cclt6e88/api/me?1716383338445 (132.180.189.104) 2.90ms referer=https://hub.ovh2.mybinder.org/user/lukha036-website_uebung-cclt6e88/lab/proxy/8000
+[W 2024-05-22 13:08:59.970 ServerApp] 404 GET /user/lukha036-website_uebung-cclt6e88/api/me?1716383339901 (132.180.189.104) 2.69ms referer=https://hub.ovh2.mybinder.org/user/lukha036-website_uebung-cclt6e88/lab/workspaces/auto-B?reset
+[I 2024-05-22 13:09:02.837 LabApp] Build is up to date
+[I 2024-05-22 13:10:01.312 ServerApp] Saving file at /main.py
+[I 2024-05-22 13:10:03.923 ServerApp] Saving file at /main.py
+[I 2024-05-22 13:10:38.173 ServerApp] Saving file at /main.py
+[W 2024-05-22 13:11:03.868 ServerApp] 404 GET /user/lukha036-website_uebung-cclt6e88/proxy/8000 (132.180.189.104) 3.41ms referer=None
+[W 2024-05-22 13:11:36.809 ServerApp] 404 GET /user/lukha036-website_uebung-cclt6e88/8000 (132.180.189.104) 3.15ms referer=None
+[I 2024-05-22 13:13:31.500 ServerApp] Creating new file in 
+[I 2024-05-22 13:14:00.652 ServerApp] Saving file at /app.py
+[I 2024-05-22 13:14:05.393 ServerApp] Creating new file in 
+[I 2024-05-22 13:14:28.813 ServerApp] Saving file at /jupyter_server_config.py

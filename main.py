@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import render_template
+from threading import Thread
 
 app = Flask(__name__)
 
@@ -24,5 +25,8 @@ def contact():
 def postdetails():
     return render_template('postdetails.html')
 
+def run():
+    app.run(host='0.0.0.0', port=8000, debug=True)
+
 if __name__ == '__main__':
-    app.run()
+    Thread(target=run).start()
